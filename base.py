@@ -5,11 +5,13 @@ Created on Mon Jan 16 11:35:36 2017
 @author: soufyanbelkaid
 """
 import os
-import sys 
+import sys
+from xml.etree.ElementTree import Element, SubElement, Comment
+from xml.etree import ElementTree
+from xml.dom import minidom
 
 #path = sys.argv[1]
-word_pairs_dir = '/Users/soufyanbelkaid/Research/SemEval_2_2012/SemEval-2012-Complete-Data-Package/Testing/Phase1Answers/'
-
+word_pairs_dir = 'SemEval-2012-Complete-Data-Package/Testing/Phase1Answers/'
 
 
 def extract_wp(path_to_dir):
@@ -22,54 +24,47 @@ def extract_wp(path_to_dir):
     return word_pairs
 
 
+def prettify(elem):
+    """
+    Return a pretty-printed XML string for the Element.
+    """
+    if not isinstance(elem, Element):
+        print "Must pass a XML Element to prettify()"
+        return
+    rough_string = ElementTree.tostring(elem, 'utf-8')
+    reparsed = minidom.parseString(rough_string)
+    return reparsed.toprettyxml(indent="  ")
 
-def create_pattern_file(top_element, all_word_pairs):
+
+def create_pattern_file(top_element, word_pairs, pattern_length=8):
     """
     :param top_element: XML top Elelement with the required data for term_ex
     :param all_word_pairs: list(list) of all word pairs provided by task
+    :param pattern_length: length of the amount of words in a pattern
     """
-    child = SubElement(top_element, 'pattern', {'len':str(len(all_word_pairs))})
-    for i in range(len(all_word_pairs)):
-        w1 = all_word_pairs[0][0]
-        w1 = all_word_pairs[0][1]
-#        SubElement(child, 'p',{
-#                "key":"tokens",
-#                "position": str(0),
-#                "values":
-#            })
-        
-    
-    
-def create_pattern_file(words_found, term_dict, top_element):
-    child = SubElement(top_element, 'pattern', {'len':str(len(words_found))})
-    ## CAN ADD PATTERNS HERE
-    for i in range(len(words_found)):
-#   only the pos tag of the aspect
-        if words_found[0] == '<BEGIN>':
-            #no contect words, simple pattern can't be extracted
-            print "stopping function, because beginning sentence"             
-            return
-        if i == 1:
-            SubElement(child, 'p',{
-                    "key":"pos",
-                    "position": str(i),
-                    "values":term_dict[words_found[i]]['pos'].lower()
-                })
-        context = term_dict.get(words_found[i])
-        if context and i != 1 :
-#           string of the context words
-            SubElement(child, 'p',{
-                    "key":"tokens",
-                    "position": str(i),
-                    "values":context['lemma'].lower()
-                })
-    print "added patterns to top_element"
+    for i in range(len(word_pairs)):
+        try:
+            w1 = word_pairs[i][0]
+            w2 = word_pairs[i][1]
+            print w1, w2
+        except IndexError, e:
+            continue
+        child = SubElement(top_element, 'pattern', {'len':str(pattern_length)})
+        SubElement(child, 'p',{
+               "key":"tokens",
+               "position": str(0),
+               "values":w1
+           })
+        SubElement(child, 'p',{
+               "key":"tokens",
+               "position": str(7),
+               "values":w2
+           })
+    return top_element
 
-    
-    
-    
 
 if __name__ == '__main__':
-    extract_wp(word_pairs_dir)
-    
-    
+    all_word_pairs = extract_wp(word_pairs_dir)
+    top = Element('patterns') #this will be the main pattern file.
+    pattern_file = create_pattern_file(top, all_word_pairs)
+    print prettify(pattern_file)
