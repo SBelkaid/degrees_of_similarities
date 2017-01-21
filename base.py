@@ -67,4 +67,5 @@ if __name__ == '__main__':
     all_word_pairs = extract_wp(word_pairs_dir)
     top = Element('patterns') #this will be the main pattern file.
     pattern_file = create_pattern_file(top, all_word_pairs)
-    print prettify(pattern_file)
+    with open('training_patterns.xml', 'w') as f:
+        f.write('%s' %prettify(pattern_file))
