@@ -60,23 +60,24 @@ def get_ranking(word_pairs, relation_category):
 	return sorted(rank, key=lambda x:x[0], reverse=True)
 
 
-
-
-def read_questions(question_str, relation_category):
+def read_q_write_a(question_str, relation_category):
 	"""
-	Extracts the pairs and call the get_ranking function. Then
+	Extracts the pairs and calls the get_ranking function. Then
 	format them correctly. 
+	:param question_str: all the word pairs in a question file.
+			 (Phase2 answers Testing/Training)
+	:type question_str: str
+	:param relation_category: category of the question file
+	:type relation_category: str
 	"""
+	with open(os.path.join('OUTPUT_PHASE2',relation_category+'-MaxDiff.txt'), 'w') as f:
 	each_line = question_str.split('\n')
 	for pair in each_line:
 		if pair:
-			four_pairs = pair.split(',')
-			print get_ranking(four_pairs, relation_category)
-			print '\n'
-
-
-
-
+			pair_1, pair_2, pair_3, pair_4 = pair.split(',')
+			rank = get_ranking([pair_1, pair_2, pair_3, pair_4], relation_category)
+			formatted = "{} {} {} {} {} {}".format(pair_1, pair_2, pair_3,\
+					 pair_4, rank[0][1], rank[1][1])
 
 
 def start(question_dir_path):
@@ -92,7 +93,7 @@ def start(question_dir_path):
 		print fn
 		category_id = fn[fn.find('-')+1:fn.find('.')]
 		source = open(os.path.join(question_dir_path, fn), 'r').read()
-		read_questions(source, category_id)
+		read_q_write_a(source, category_id)
 		break
 
 

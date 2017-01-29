@@ -72,7 +72,7 @@ def do_som_with_pairs(category, word_pairs):
     """
     # print "categorie:", category, word_pairs[0] # temporaril only printing first pair
     calculated_and_ranked = do_ranking(category, word_pairs)
-    with open('OUTPUT_PHASE1/'+category+'-scaled.txt', 'w') as f:
+    with open(os.path.join('OUTPUT_PHASE1',category+'-scaled.txt'), 'w') as f:
       for pair_string in calculated_and_ranked:
         f.write('%s\n' % pair_string)
 
@@ -83,7 +83,7 @@ def start(path_to_answers_training, path_to_answers_testing):
     if not os.path.exists('OUTPUT_PHASE1'):
       os.mkdir('OUTPUT_PHASE1')
     for fn in file_names:
-      path, fn = fn[0]
+      path, fn = fn
       categorie_id = fn[fn.find('-')+1:fn.find('.')] #extracting categorie of file
       raw_pairs = open(os.path.join(path,fn), 'r').read().split('\n')
       word_pairs = [e.strip('"').split(':') for e in raw_pairs if e]
