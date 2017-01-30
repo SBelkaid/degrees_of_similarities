@@ -21,17 +21,19 @@ echo -----------------------
 echo RUNNING random_scale.pl
 echo -----------------------
 #
+
+
 perl random_scale.pl Training/Phase1Answers/Phase1Answers-1a.txt Examples/RandomScaled-1a.txt
-#
-#   maxdiff_to_scale.pl <input file of MaxDiff answers> <output file of rated pairs>
-#
-#   - convert MaxDiff answers to a list of word pairs rated on a scale
-#   - see http://en.wikipedia.org/wiki/MaxDiff
-#
+# #
+# #   maxdiff_to_scale.pl <input file of MaxDiff answers> <output file of rated pairs>
+# #
+# #   - convert MaxDiff answers to a list of word pairs rated on a scale
+# #   - see http://en.wikipedia.org/wiki/MaxDiff
+# #
 echo ---------------------------
 echo RUNNING maxdiff_to_scale.pl
 echo ---------------------------
-#
+# #
 perl maxdiff_to_scale.pl Training/Phase2Answers/Phase2Answers-1a.txt Examples/TurkerScaled-1a.txt
 
 #
