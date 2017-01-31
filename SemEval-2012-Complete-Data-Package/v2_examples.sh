@@ -7,7 +7,7 @@
 #   This shell script shows how you can use the Perl scripts to evaluate
 #   the performance of your algorithm.
 echo ----------------------
-echo MAKING RESULT DIRECTOR
+echo MAKING RESULT DIRECTORY
 echo ----------------------
 #
 mkdir ../RESULTS
