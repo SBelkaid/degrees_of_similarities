@@ -1,31 +1,7 @@
-'''1. random_scale.pl
-   - the first step is to run your algorithm on the Phase 1 Answers of
-     the Turkers
-   - let's use random_scale.pl to play the role of your algorithm
-   - random_scale.pl reads the Phase 1 word pairs and scores them
-     randomly
-   - your own algorithm would score the pairs by comparing them with
-     the paradigm pairs (subcategories-paradigms.txt) or the
-     definitions (subcategories-definitions.txt) or both
-   - the score for a pair should represent the degree to which the
-     given pair is a prototypical example of the given relation
-   - edit random_scale.pl to read the desired pair file in Phase1Answers,
-     such as "Phase1Answers/Phase1Answers-1a.txt", and write the ratings
-     to a suitable file, such as "Examples/RandomScaled-1a.txt"
-   - run random_scale.pl and take a look at the output file'''
-
+#!/usr/bin/env python
+#-*- coding: utf8 *-*
 '''
-How to Use the Data
-
-1. Phase1Questions
-   - extract the paradigm pairs and/or the relation definitions from
-     this directory and use this information to train or guide your
-     algorithm
-
-2. Phase1Answers
-   - use your algorithm to compare these pairs to the paradigms or definitions 
-     from the previous step and rate the word pairs in Phase1Answers according 
-     to their degree of prototypicality for the given relation
+This script is a random implementation of phase1 of the SemEval-2012 task 2
 '''
 
 import sys
@@ -45,6 +21,7 @@ CATEGORY_FILE = {''.join([e[0], e[1]]).replace(" ", ""):e[2]+'-'+e[3] for e in c
 def calculate_rank(category, word_pairs):
     """
     This function should calculate something and rank the pairs.
+
     :param category: the category of the word pairs
     :type category: str
     :param word_pairs: list of word pairs
