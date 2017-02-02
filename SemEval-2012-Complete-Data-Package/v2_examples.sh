@@ -10,7 +10,13 @@ echo ----------------------
 echo MAKING RESULT DIRECTORY
 echo ----------------------
 #
-mkdir ../RESULTS
+
+output_folder="../RESULTS"
+
+if [ ! -d $output_folder ]; then
+	mkdir $output_folder
+fi
+
 #
 #   score_scale.pl <input file of Gold Standard pair ratings> 
 #                  <input file of pair ratings to be evaluated> <output file of results>
@@ -37,6 +43,5 @@ echo ------------------------
 #
 perl score_maxdiff.pl Training/Phase2Answers/Phase2Answers-1a.txt \
                  ../OUTPUT_PHASE2/1a-MaxDiff.txt ../RESULTS/ResultMaxDiffRandom-1a.txt
-#
-#
-#
+
+
