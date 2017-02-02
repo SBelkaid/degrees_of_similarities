@@ -20,6 +20,7 @@ path_to_gold_ratings_md = 'SemEval-2012-Complete-Data-Package/Testing/Phase2Answ
 
 
 def run_eval(cmd):
+	# print ' '.join(cmd) #debugging
 	eval_proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr = subprocess.PIPE)
 	stdout, stderr = eval_proc.communicate()
 	print stdout
