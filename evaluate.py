@@ -5,23 +5,24 @@ import sys
 import subprocess
 
 
-usage = """
-python <path_to_phase1_output_files> <path_to_gold_ratings>
-"""
+# usage = """
+# python <path_to_phase1_output_files> <path_to_gold_ratings>
+# """
 
-if len(sys.argv) != 3:
-	print usage
-	sys.exit(1)
+# if len(sys.argv) != 3:
+# 	print usage
+# 	sys.exit(1)
 
-path_to_files = sys.argv[1]
-path_to_gold_ratings = sys.argv[2]
+path_to_files_sc = 'OUTPUT_PHASE1/'
+path_to_gold_ratings_sc = 'SemEval-2012-Gold-Ratings/Testing/'
+path_to_files_md = 'OUTPUT_PHASE2'
+path_to_gold_ratings_md = 'SemEval-2012-Complete-Data-Package/Testing/Phase2Answers'
 
 
 def run_eval(cmd):
-	# print cmd
 	eval_proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr = subprocess.PIPE)
 	stdout, stderr = eval_proc.communicate()
-	print stderr
+	print stdout
 
 
 def format_eval(input_fol, gold_input_fol, eval_script = None):
@@ -56,5 +57,5 @@ def format_eval(input_fol, gold_input_fol, eval_script = None):
 
 
 if __name__== "__main__":
-	format_eval(path_to_files, path_to_gold_ratings, 'score_maxdiff.pl') #also can use score_maxdiff.pl
-	# format_eval(path_to_files, path_to_gold_ratings, 'score_maxdiff.pl') #also can use score_maxdiff.pl
+	format_eval(path_to_files_sc, path_to_gold_ratings_sc, 'score_scale.pl') #also can use score_maxdiff.pl
+	format_eval(path_to_files_md, path_to_gold_ratings_md, 'score_maxdiff.pl') #also can use score_maxdiff.pl
