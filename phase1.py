@@ -42,7 +42,7 @@ category_file = [e.split(',') for e
 CATEGORY_FILE = {''.join([e[0], e[1]]).replace(" ", ""):e[2]+'-'+e[3] for e in category_file[:-1]}
 
 
-def do_ranking(category, word_pairs):
+def calculate_rank(category, word_pairs):
     """
     This function should calculate something and rank the pairs.
     :param category: the category of the word pairs
@@ -59,19 +59,22 @@ def do_ranking(category, word_pairs):
     return formatted
 
   
-def do_som_with_pairs(category, word_pairs):
+def start_ranking(category, word_pairs):
     """
     This function takes the word pairs provided by the Turkers
     as input and has to rank them from most similar to least for a given category. The function
     should call another function that calculates the rank probability.
     Here the model trained should be summoned. 
     The output is written to a file in OUTPUT_PHASE1 directory
-    :param categorie: str, representing the categorie. Explanation can
+
+    :param category: str, representing the categorie. Explanation can
     be found in subcategories.txt
-    :param word_pairs: list(list), containing word pairs provided by annotators 
+    :type category: str()
+    :param word_pairs: list containing word pairs provided by annotators 
+    :type word_pairs: list(list)
     """
     # print "categorie:", category, word_pairs[0] # temporaril only printing first pair
-    calculated_and_ranked = do_ranking(category, word_pairs)
+    calculated_and_ranked = calculate_rank(category, word_pairs)
     with open(os.path.join('OUTPUT_PHASE1',category+'-scaled.txt'), 'w') as f:
       for pair_string in calculated_and_ranked:
         f.write('%s\n' % pair_string)
@@ -87,7 +90,7 @@ def start(path_to_answers_training, path_to_answers_testing):
       categorie_id = fn[fn.find('-')+1:fn.find('.')] #extracting categorie of file
       raw_pairs = open(os.path.join(path,fn), 'r').read().split('\n')
       word_pairs = [e.strip('"').split(':') for e in raw_pairs if e]
-      do_som_with_pairs(categorie_id, word_pairs)
+      start_ranking(categorie_id, word_pairs)
 
 
 if __name__ == '__main__':

@@ -15,14 +15,14 @@ The category labels will be visible in the training set but hidden in the testin
    - compare your answers to human answers
    - see the Perl scripts for examples
 """
-
 import sys
 import os
 
 IN_FOL_P1 = os.listdir('OUTPUT_PHASE1')
 # path_to_fol = sys.argv[1]
 definitions_file = 'SemEval-2012-Complete-Data-Package/subcategories-list.txt'
-path_to_questions = 'SemEval-2012-Complete-Data-Package/Training/Phase2Questions'
+path_to_questions_training = 'SemEval-2012-Complete-Data-Package/Training/Phase2Questions'
+path_to_questions_testing = 'SemEval-2012-Complete-Data-Package/Testing/Phase2Questions'
 category_file = [e.split(',') for e 
     in open(definitions_file, 'r').read().split('\n')]
 CATEGORY_FILE = {''.join([e[0], e[1]]).replace(" ", ""):e[2]+'-'+e[3] for e in category_file[:-1]}
@@ -71,39 +71,36 @@ def read_q_write_a(question_str, relation_category):
 	:type relation_category: str
 	"""
 	with open(os.path.join('OUTPUT_PHASE2',relation_category+'-MaxDiff.txt'), 'w') as f:
-	each_line = question_str.split('\n')
-	for pair in each_line:
-		if pair:
-			pair_1, pair_2, pair_3, pair_4 = pair.split(',')
-			rank = get_ranking([pair_1, pair_2, pair_3, pair_4], relation_category)
-			formatted = "{} {} {} {} {} {}".format(pair_1, pair_2, pair_3,\
-					 pair_4, rank[0][1], rank[1][1])
+		each_line = question_str.split('\n')
+		for pair in each_line:
+			if pair:
+				pair_1, pair_2, pair_3, pair_4 = pair.split(',')
+				rank = get_ranking([pair_1, pair_2, pair_3, pair_4], relation_category)
+				formatted = "{} {} {} {} {} {}\n".format(pair_1, pair_2, pair_3,\
+						 pair_4, rank[0][1], rank[1][1])
+				f.write('%s' % formatted.encode('utf8'))
 
 
-def start(question_dir_path):
+def start(question_dir_path_training, question_dir_path_testing):
 	"""
 	This function opens and parses the questions. 
 	:param question_dir_path: path
 	:type question_dir_path: str
 
 	"""
-	
-	file_names = os.listdir(question_dir_path)	
+	file_names = os.listdir(question_dir_path_training)
+	file_names = [(question_dir_path_training, e) for e in os.listdir(question_dir_path_training)]
+	file_names.extend([(question_dir_path_testing, e) for e in os.listdir(question_dir_path_testing)])
+	if not os.path.exists('OUTPUT_PHASE2'):
+		print "Creating directory"
+		os.mkdir('OUTPUT_PHASE2')
 	for fn in file_names:
-		print fn
+		path, fn = fn
 		category_id = fn[fn.find('-')+1:fn.find('.')]
-		source = open(os.path.join(question_dir_path, fn), 'r').read()
+		source = open(os.path.join(path, fn), 'r').read()
 		read_q_write_a(source, category_id)
-		break
-
-
 
 
 if __name__ == '__main__':
 	ranking_dict = create_ranking_dict()
-	start(path_to_questions)
-	
-
-
-
-
+	start(path_to_questions_training, path_to_questions_testing)
