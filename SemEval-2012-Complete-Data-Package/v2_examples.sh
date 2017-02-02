@@ -27,7 +27,7 @@ echo ----------------------
 echo RUNNING score_scale.pl
 echo ----------------------
 #
-perl score_scale.pl Examples/TurkerScaled-1a.txt ../OUTPUT_PHASE2/1a-scaled.txt \
+perl score_scale.pl Examples/TurkerScaled-1a.txt ../OUTPUT_PHASE1/1a-scaled.txt \
 			../RESULTS/RandomScaled-1a.txt 
                
 #
