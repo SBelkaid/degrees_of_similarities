@@ -1,6 +1,7 @@
 from os import listdir, path
 from sklearn.linear_model import LogisticRegression
 from os import listdir, stat, path, mkdir
+from random import random
 
 def extract_labels(semrel_folder, pair2index):
     '''
@@ -12,11 +13,11 @@ def extract_labels(semrel_folder, pair2index):
         @relations_y: dictionary with labels (y) for each semantic relation class 
         @pairs_rel: word pairs in the golden ratings for each semantic relation class 
     '''
-    pairs_rel = {}
-    relations_y = {}
+    pairs_rel = dict()
+    relations_y = dict()
     for rel in listdir(semrel_folder):
         semrel_file = open(path.join(semrel_folder, rel), 'r')
-        rel = rel[12: len(rel)-4]
+        rel = rel[14: len(rel)-4]
         pairs_rel[rel] = []
         relations_y[rel] = []
         for line in semrel_file:
@@ -42,16 +43,16 @@ def logreg_classify_pairs(semrel_folder, feature_matrix, pair2index, pat2index):
     '''
     dm_pairs = pair2index.keys()
     pairs_rel = {}
-    relations_y, pairs_rel = extract_labels(semrel_folder)
+    relations_y, pairs_rel = extract_labels(semrel_folder, pair2index)
     for rel in relations_y:
         print 'Semantic relation: ' + rel
         X, y = feature_matrix, relations_y[rel]
-        for c in xrange(3):
-            output_dir = 'Scores_c' + str(r)
+        for c in xrange(1,4):
+            output_dir = 'Scores_c' + str(c)
             try:
-                os.stat(output_dir)
+                stat(output_dir)
             except:
-                os.mkdir(output_dir)
+                mkdir(output_dir)
             l1_LR = LogisticRegression(C=c, penalty='l1')
             l1_LR.fit(X, y)
             prob = l1_LR.predict_proba(X)
@@ -59,6 +60,8 @@ def logreg_classify_pairs(semrel_folder, feature_matrix, pair2index, pat2index):
             for p in pairs_rel[rel]:
                 if p in dm_pairs:
                     ratings[p] = prob[pair2index[p]][1]
-            rating_file = path.join(output_dir, rel)
+                else:
+                    ratings[p] = random()
+            rating_file = open(path.join(output_dir, rel + '_scaled.txt'), 'wb')
             for p in ratings:
-                rating_file.write(p[i] + '\t' + p)
+                rating_file.write(str(ratings[p]) + '\t' + p + '\n')
