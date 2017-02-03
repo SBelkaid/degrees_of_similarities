@@ -44,24 +44,39 @@ def logreg_classify_pairs(semrel_folder, feature_matrix, pair2index, pat2index):
     dm_pairs = pair2index.keys()
     pairs_rel = {}
     relations_y, pairs_rel = extract_labels(semrel_folder, pair2index)
+    output_folder = 'Logit_output'
+    try:
+        stat(output_folder)
+    except:
+        mkdir(output_folder)
     for rel in relations_y:
-        print 'Semantic relation: ' + rel
-        X, y = feature_matrix, relations_y[rel]
-        for c in xrange(1,4):
-            output_dir = 'Scores_c' + str(c)
-            try:
-                stat(output_dir)
-            except:
-                mkdir(output_dir)
-            l1_LR = LogisticRegression(C=c, penalty='l1')
-            l1_LR.fit(X, y)
-            prob = l1_LR.predict_proba(X)
-            ratings = dict() 
-            for p in pairs_rel[rel]:
-                if p in dm_pairs:
-                    ratings[p] = prob[pair2index[p]][1]
-                else:
-                    ratings[p] = random()
-            rating_file = open(path.join(output_dir, rel + '_scaled.txt'), 'wb')
-            for p in ratings:
-                rating_file.write(str(ratings[p]) + '\t' + p + '\n')
+        i = 0
+        try:
+            print 'Semantic relation: ' + rel
+            X, y = feature_matrix, relations_y[rel]
+            for c in xrange(1,4):
+                for penalty in ['l1','l2']:
+                    output_dir = path.join(output_folder,'Scores_'+ penalty+'_c' + str(c) )
+                    try:
+                        stat(output_dir)
+                    except:
+                        mkdir(output_dir)
+                    LR = LogisticRegression(C=c, penalty=penalty)
+                    LR.fit(X, y)
+                    prob = LR.predict_proba(X)
+                    ratings = dict() 
+                    covered = 0
+                    for p in pairs_rel[rel]:
+                        if p in dm_pairs:
+                            ratings[p] = prob[pair2index[p]][1]
+                            covered += 1
+                        else:
+                            ratings[p] = random()
+                    if i == 0:
+                        print str(float(covered)/float(len(pairs_rel[rel])))
+                    i +=1
+                    rating_file = open(path.join(output_dir, rel + '_scaled.txt'), 'wb')
+                    for p in ratings:
+                        rating_file.write(str(ratings[p]) + '\t' + p + '\n')
+        except:
+            print 'Error'
