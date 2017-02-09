@@ -1,0 +1,6 @@
+0.000263875029095	"strong:weak"
+0.00157535931555	"immortal:die"
+0.00354645936166	"hungry:fed"
+0.00374814505832	"ugly:beautiful"
+0.000625470856088	"beautiful:ugly"
+0.00383162367811	"wealthy:poor"
