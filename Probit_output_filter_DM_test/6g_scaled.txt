@@ -1,0 +1,3 @@
+0.0014088	"piece:bunch"
+0.0010633	"peace:war"
+0.001409	"crawl:rapid"
