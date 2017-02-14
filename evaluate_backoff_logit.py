@@ -62,8 +62,8 @@ def format_eval(input_fol, gold_input_fol, param, i, eval_script = None):
 			cmd.append(os.path.join(gold_input_fol, gold_f))
 			cmd.append(os.path.join(input_fol, out_f))
 			cmd.append(output_folder +'/'+output_file_ext+'-'+category_out_f+'.txt')
+			print 'this is the command',' '.join(cmd), '\n\n'
 			run_eval(cmd)
-
 
 def general_eval(input_dir, param, i):
 	folder = os.path.join('LogitBackoff_eval', param)
@@ -88,31 +88,19 @@ def general_eval(input_dir, param, i):
 				if j > 3 and len(line.split(': ')) > 1 :
 					s = line.split(': ')
 					attr = s[0]
+                    
 					value = float(s[1].replace('%', '').replace('\n', ''))
+                  
 					values_S[attr].append(value)
 				j +=1
 	md_file = open(os.path.join(output_folder, 'General_eval_Maxdiff'), 'w')
-	s_file = open(os.path.join(output_folder, 'General_eval_Scale'), 'w')
+	s_file = open(os.path.join(output_folder, 'General_eval_Scale'), 'w')	
 	for v in values_MD:
 		md_file.write(v+ '\t' + str(np.mean(values_MD[v]))+ '\n')
 	md_file.close()
 	for v in values_S:
 		s_file.write(v+ '\t' + str(np.mean(values_S[v]))+ '\n')
 	s_file.close()
-
-
-def write_mean(values, file_to_write):
-	"""
-	Write mean values from dict created in iter_eval to file
-	:param values: dictionairy containing values
-	:type values: defaultdict(list)
-	:param file_to_write: path of the file to write to 
-	:type file_to_write: str
-	"""
-	with open(file_to_write, 'w') as f:
-		for v in values:
-			f.write(v+ '\t' + str(np.mean(values[v]))+  '\t' + str(np.var(values[v]))+'\n')
-
 
 def iter_eval(input_dir, param):
 	output_folder = os.path.join('LogitBackoff_eval', param)
@@ -135,9 +123,14 @@ def iter_eval(input_dir, param):
 				value = s[1].replace('\n', '')                    
 				value = float(value)
 				values_S[attr].append(value)
-	write_mean(values_MD, os.path.join(output_folder, 'General_eval_iter_Maxdiff'))
-	write_mean(values_S, os.path.join(output_folder, 'General_eval_iter_Scale'))
-
+	md_file = open(os.path.join(output_folder, 'General_eval_iter_Maxdiff'), 'w')
+	s_file = open(os.path.join(output_folder, 'General_eval_iter_Scale'), 'w')
+	for v in values_MD:
+		md_file.write(v+ '\t' + str(np.mean(values_MD[v]))+  '\t' + str(np.var(values_MD[v]))+'\n')
+	md_file.close()
+	for v in values_S:
+		s_file.write(v+ '\t' + str(np.mean(values_S[v]))+ '\t' + str(np.var(values_S[v]))+'\n')
+	s_file.close()
 
 if __name__== "__main__":
 	if not os.path.exists('LogitBackoff_eval'):
@@ -151,6 +144,6 @@ if __name__== "__main__":
 				path_to_files_sc = input_dir
 				path_to_files_md = input_dir + '_MD'
 				format_eval(path_to_files_sc, path_to_gold_ratings_sc, param, i, 'score_scale.pl') #also can use score_maxdiff.pl
-				format_eval(path_to_files_md, path_to_gold_ratings_md, param, i, 'score_maxdiff.pl')	
+				format_eval(path_to_files_md, path_to_gold_ratings_md, param, i, 'score_maxdiff.pl') #also can use score_maxdiff.pl		
 				general_eval(input_dir, param, i)
 		iter_eval(main_folder, param)
