@@ -135,7 +135,7 @@ def iter_eval(input_dir, param):
 if __name__== "__main__":
 	if not os.path.exists('LogitBackoff_eval'):
 		os.mkdir('LogitBackoff_eval')
-	main_folder = '/home/laura/Uni/degrees_of_similarities/Logit_output_backoff_DM_test/'
+	main_folder = 'Logit_output_backoff_DM_test/'
 	for param in os.listdir(main_folder):
 		p_folder = os.path.join(main_folder, param)
 		for i in os.listdir(p_folder):
