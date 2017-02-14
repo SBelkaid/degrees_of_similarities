@@ -1,0 +1,2 @@
+"raise:low","regret:mistake","burn:flammable","repair:damaged"
+"use:working","bleach:stain","repair:damaged","heal:hurt"

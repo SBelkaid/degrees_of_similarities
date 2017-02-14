@@ -1,0 +1,6 @@
+ 42.0 "immortal:die"
+  8.2 "beautiful:ugly"
+  6.0 "wealthy:poor"
+  2.0 "ugly:beautiful"
+ -8.2 "strong:weak"
+-70.0 "hungry:fed"

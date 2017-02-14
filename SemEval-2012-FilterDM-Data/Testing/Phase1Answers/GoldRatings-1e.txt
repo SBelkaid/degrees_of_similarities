@@ -1,0 +1,7 @@
+ 62.0 "ocean:Pacific"
+ 42.0 "ocean:Atlantic"
+ 32.0 "state:Virginia"
+ 20.0 "ocean:Indian"
+-12.0 "car:Honda"
+-32.0 "cat:Siamese"
+-66.0 "Indian:ocean"

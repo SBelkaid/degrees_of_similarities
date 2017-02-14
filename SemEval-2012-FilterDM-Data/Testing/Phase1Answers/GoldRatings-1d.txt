@@ -1,0 +1,5 @@
+ 16.0 "fish:salmon"
+ -2.0 "silverware:spoon"
+-18.0 "instrument:flute"
+-24.0 "money:dime"
+-32.0 "seating:chair"

@@ -1,0 +1,4 @@
+"hard:simple","fun:boring","grief:happiness","wrong:good"
+"plain:beautiful","high:down","obey:protest","boring:fun"
+"grief:happiness","long:short","low:up","bright:dark"
+"plain:beautiful","bright:dark","good:evil","fun:boring"

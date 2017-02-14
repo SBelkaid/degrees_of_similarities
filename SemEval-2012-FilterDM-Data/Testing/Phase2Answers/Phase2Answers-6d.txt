@@ -1,0 +1,5 @@
+"nice:mean"	"young:old"	"freedom:hostage"	"old:young"	"freedom:hostage"	"young:old"	"someone/something who is X cannot be Y or be in the state of Y"
+"nice:mean"	"young:old"	"freedom:hostage"	"old:young"	"nice:mean"	"freedom:hostage"	"someone/something who is X cannot be Y or be in the state of Y"
+"nice:mean"	"young:old"	"freedom:hostage"	"old:young"	"young:old"	"old:young"	"someone/something who is X cannot be Y or be in the state of Y"
+"nice:mean"	"young:old"	"freedom:hostage"	"old:young"	"freedom:hostage"	"young:old"	"someone/something who is X cannot be Y or be in the state of Y"
+"nice:mean"	"young:old"	"freedom:hostage"	"old:young"	"freedom:hostage"	"nice:mean"	"someone/something who is X cannot be Y or be in the state of Y"

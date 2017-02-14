@@ -1,0 +1,5 @@
+"hot:cool"	"smile:angry"	"cruel:help"	"calm:scream"	"hot:cool"	"cruel:help"	"someone/something who is X is unlikely to Y"
+"hot:cool"	"smile:angry"	"cruel:help"	"calm:scream"	"hot:cool"	"smile:angry"	"someone/something who is X is unlikely to Y"
+"hot:cool"	"smile:angry"	"cruel:help"	"calm:scream"	"smile:angry"	"calm:scream"	"someone/something who is X is unlikely to Y"
+"hot:cool"	"smile:angry"	"cruel:help"	"calm:scream"	"cruel:help"	"smile:angry"	"someone/something who is X is unlikely to Y"
+"hot:cool"	"smile:angry"	"cruel:help"	"calm:scream"	"smile:angry"	"smile:angry"	"someone/something who is X is unlikely to Y"

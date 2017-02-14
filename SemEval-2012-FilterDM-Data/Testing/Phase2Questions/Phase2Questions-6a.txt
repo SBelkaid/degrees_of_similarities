@@ -1,0 +1,5 @@
+"cold:fire","speed:slow","sight:invisible","voice:mute"
+"sight:invisible","object:tangible","speed:slow","empty:full"
+"height:low","liquid:solid","baby:mature","liar:honest"
+"fire:cold","cold:fire","empty:full","height:low"
+"dream:consciousness","liar:honest","voice:mute","honest:liar"

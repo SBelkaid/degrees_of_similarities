@@ -1,0 +1,3 @@
+"excitement:happy","scream:angry","rest:restorative","sing:musical"
+"jump:high","twist:sinuous","paint:artistic","withdrawal:timid"
+"hit:aggressive","scream:angry","sing:musical","fast:run"
