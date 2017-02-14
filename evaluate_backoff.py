@@ -62,7 +62,6 @@ def format_eval(input_fol, gold_input_fol, param, i, eval_script = None):
 			cmd.append(os.path.join(gold_input_fol, gold_f))
 			cmd.append(os.path.join(input_fol, out_f))
 			cmd.append(output_folder +'/'+output_file_ext+'-'+category_out_f+'.txt')
-			# print 'this is the command',' '.join(cmd), '\n\n' #debugging
 			run_eval(cmd)
 
 
@@ -152,6 +151,6 @@ if __name__== "__main__":
 				path_to_files_sc = input_dir
 				path_to_files_md = input_dir + '_MD'
 				format_eval(path_to_files_sc, path_to_gold_ratings_sc, param, i, 'score_scale.pl') #also can use score_maxdiff.pl
-				format_eval(path_to_files_md, path_to_gold_ratings_md, param, i, 'score_maxdiff.pl') #also can use score_maxdiff.pl		
+				format_eval(path_to_files_md, path_to_gold_ratings_md, param, i, 'score_maxdiff.pl')	
 				general_eval(input_dir, param, i)
 		iter_eval(main_folder, param)
