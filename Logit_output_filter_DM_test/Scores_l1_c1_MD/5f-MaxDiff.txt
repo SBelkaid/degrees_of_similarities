@@ -1,0 +1,2 @@
+"heavy:press" "fragile:break" "sad:frown" "happy:smile" "heavy:press" "happy:smile"
+"fragile:break" "round:roll" "sink:dense" "hot:burn" "round:roll" "hot:burn"

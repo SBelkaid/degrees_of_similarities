@@ -1,5 +1,0 @@
-3.45655795997e-31	"fish:salmon"
-4.19081884647e-05	"silverware:spoon"
-0.0149954454336	"money:dime"
-8.5556057536e-49	"instrument:flute"
-2.03099535523e-08	"seating:chair"

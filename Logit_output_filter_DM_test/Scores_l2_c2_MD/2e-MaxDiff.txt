@@ -1,0 +1,4 @@
+"chopping:cooking" "shooting:basketball" "kitchen:house" "pitching:baseball" "kitchen:house" "shooting:basketball"
+"talking:therapy" "cooking:eating" "farming:harvesting" "therapy:talking" "cooking:eating" "therapy:talking"
+"pitch:baseball" "hearing:understanding" "farming:harvesting" "leg:body" "hearing:understanding" "leg:body"
+"kitchen:house" "harvesting:farming" "hearing:understanding" "pitch:baseball" "kitchen:house" "hearing:understanding"

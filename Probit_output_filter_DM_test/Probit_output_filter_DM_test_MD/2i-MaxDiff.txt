@@ -1,0 +1,7 @@
+"forest:sand" "desert:evergreen" "poverty:riches" "fish:hair" "forest:sand" "poverty:riches"
+"desert:evergreen" "fish:hair" "desert:water" "ocean:camel" "ocean:camel" "desert:evergreen"
+"honesty:deception" "hearing:deaf" "deaf:hearing" "desert:evergreen" "hearing:deaf" "desert:evergreen"
+"ocean:camel" "unemployed:job" "animal:leaf" "camel:ocean" "animal:leaf" "ocean:camel"
+"forest:sand" "pride:embarrassment" "desert:water" "hair:fish" "pride:embarrassment" "forest:sand"
+"deaf:hearing" "famine:food" "forest:sand" "unemployed:job" "forest:sand" "famine:food"
+"desert:evergreen" "poor:money" "health:disease" "animal:leaf" "poor:money" "health:disease"

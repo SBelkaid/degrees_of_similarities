@@ -1,0 +1,7 @@
+0.992631960052	"car:Honda"
+0.982778291132	"state:Virginia"
+0.87416201512	"cat:Siamese"
+0.114200998061	"ocean:Atlantic"
+0.0762054856765	"ocean:Pacific"
+0.0348319008186	"ocean:Indian"
+0.0118203492298	"Indian:ocean"

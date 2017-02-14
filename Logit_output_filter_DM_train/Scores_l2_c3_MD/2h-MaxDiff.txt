@@ -1,0 +1,4 @@
+"employee:job" "jug:milk" "homeowner:door" "bank:money" "bank:money" "employee:job"
+"doctor:phd" "refinery:gas" "expert:experience" "bee:beehive" "expert:experience" "bee:beehive"
+"gas:refinery" "vintner:wine" "library:books" "bee:beehive" "vintner:wine" "library:books"
+"gas:refinery" "musician:music" "vintner:wine" "tree:bark" "musician:music" "vintner:wine"

@@ -1,0 +1,4 @@
+"north:south" "start:finish" "port:starboard" "go:come" "north:south" "start:finish"
+"sink:rise" "stop:go" "high:low" "out:in" "stop:go" "high:low"
+"go:come" "rise:sink" "in:out" "out:in" "out:in" "in:out"
+"boring:interesting" "root:tip" "climb:descend" "rise:sink" "climb:descend" "rise:sink"
