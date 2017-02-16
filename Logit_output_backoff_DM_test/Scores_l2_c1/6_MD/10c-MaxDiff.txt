@@ -71,7 +71,7 @@
 "people:city" "life:biography" "journal:events" "face:profile" "people:city" "journal:events"
 "king:crown" "juice:fruit" "book:summary" "story:book" "story:book" "book:summary"
 "book:story" "life:biography" "artwork:replica" "landscape:photo" "book:story" "artwork:replica"
-"biography:celebrity" "screenplay:movie" "journal:events" "image:picture" "image:picture" "screenplay:movie"
+"biography:celebrity" "screenplay:movie" "journal:events" "image:picture" "image:picture" "journal:events"
 "shadow:object" "sound:recording" "image:photograph" "fairytale:ideal" "fairytale:ideal" "sound:recording"
 "unity:country" "history:account" "emotion:song" "image:sketch" "history:account" "emotion:song"
 "ideal:fairytale" "photo:object" "sculpture:person" "acknowledgement:signature" "photo:object" "sculpture:person"

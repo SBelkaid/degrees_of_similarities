@@ -72,7 +72,7 @@
 "space:star" "refrigerator:appliance" "book:novel" "bedding:sheet" "book:novel" "space:star"
 "cordless:phone" "container:jug" "flower:daisy" "tool:hammer" "flower:daisy" "tool:hammer"
 "animal:raccoon" "father:family" "color:green" "computer:laptop" "father:family" "color:green"
-"internet:website" "fruit:apple" "mammal:gorilla" "animal:raccoon" "fruit:apple" "internet:website"
+"internet:website" "fruit:apple" "mammal:gorilla" "animal:raccoon" "fruit:apple" "animal:raccoon"
 "shoe:boot" "literature:book" "art:sculpture" "furniture:desk" "art:sculpture" "furniture:desk"
 "instrument:piano" "mineral:mica" "meal:dinner" "drink:milk" "meal:dinner" "instrument:piano"
 "pet:cat" "seat:couch" "tool:hammer" "herb:basil" "pet:cat" "seat:couch"

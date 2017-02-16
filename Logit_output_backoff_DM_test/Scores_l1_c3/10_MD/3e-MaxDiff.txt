@@ -16,7 +16,7 @@
 "boy:man" "compost:fertilizer" "adult:baby" "seed:plant" "seed:plant" "boy:man"
 "past:future" "prune:date" "plum:prune" "child:adult" "child:adult" "plum:prune"
 "charcoal:ashes" "student:graduate" "seedling:tree" "lettuce:salad" "student:graduate" "seedling:tree"
-"fawn:deer" "night:day" "girlfriend:wife" "gosling:goose" "night:day" "girlfriend:wife"
+"fawn:deer" "night:day" "girlfriend:wife" "gosling:goose" "night:day" "gosling:goose"
 "past:future" "night:day" "salad:lettuce" "fawn:deer" "night:day" "salad:lettuce"
 "amateur:professional" "sheep:lamb" "girl:woman" "investment:profit" "girl:woman" "investment:profit"
 "grape:raisin" "deer:fawn" "dough:bread" "child:adult" "child:adult" "dough:bread"

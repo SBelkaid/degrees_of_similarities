@@ -1,3 +1,4 @@
+0.99849165333	"clay:malleable"
 0.993999363072	"steel:strong"
 0.940488411283	"man:tall"
 0.884422552897	"light:bright"
@@ -12,7 +13,6 @@
 0.443705160171	"bone:brittle"
 0.435771435298	"sunburn:painful"
 0.386651747518	"water:wet"
-0.368792379924	"clay:malleable"
 0.270666154806	"fire:heat"
 0.260093694909	"intellectual:professor"
 0.257661048633	"mogul:wealth"

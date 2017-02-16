@@ -43,7 +43,7 @@
 "manager:employee" "mechanic:car" "proprietor:customer" "lawyer:client" "lawyer:client" "manager:employee"
 "orator:audience" "reader:textbook" "seller:customer" "attorney:client" "attorney:client" "orator:audience"
 "clerk:customer" "mother:child" "shopkeeper:patron" "parent:child" "mother:child" "parent:child"
-"arborist:tree" "textbook:reader" "student:professor" "salesperson:buyer" "student:professor" "textbook:reader"
+"arborist:tree" "textbook:reader" "student:professor" "salesperson:buyer" "student:professor" "arborist:tree"
 "child:nanny" "manager:employee" "seller:buyer" "salesperson:customer" "seller:buyer" "manager:employee"
 "mechanic:car" "tree:arborist" "professor:student" "lender:borrower" "lender:borrower" "professor:student"
 "preacher:congregation" "coach:athlete" "boss:employee" "vet:animal" "boss:employee" "vet:animal"

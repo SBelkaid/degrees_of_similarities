@@ -33,7 +33,7 @@
 0.523976359131	"apple:food"
 0.47116090924	"vegetable:spinach"
 0.420018966224	"fork:utensil"
-0.401090023395	"nourishment:banana"
+0.295769398119	"nourishment:banana"
 0.259095774757	"garment:shirt"
 0.189368936608	"sock:clothing"
 0.184053192418	"garment:skirt"

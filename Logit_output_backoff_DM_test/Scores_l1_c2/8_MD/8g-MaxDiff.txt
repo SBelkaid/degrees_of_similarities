@@ -10,7 +10,7 @@
 "car:drive" "pencil:write" "handle:turn" "cigarette:smoke" "car:drive" "pencil:write"
 "needle:sew" "dollar:purchase" "airplane:fly" "pen:write" "pen:write" "airplane:fly"
 "blender:puree" "stove:cook" "knife:cut" "calculator:add" "knife:cut" "stove:cook"
-"lotion:moisturize" "camera:photograph" "sweep:broom" "hammer:pound" "camera:photograph" "hammer:pound"
+"lotion:moisturize" "camera:photograph" "sweep:broom" "hammer:pound" "camera:photograph" "lotion:moisturize"
 "photograph:camera" "stab:knife" "sleep:bed" "bed:sleep" "stab:knife" "sleep:bed"
 "drive:car" "broom:sweep" "fork:eat" "cook:stove" "cook:stove" "fork:eat"
 "car:drive" "photograph:camera" "eat:fork" "camera:photograph" "car:drive" "camera:photograph"

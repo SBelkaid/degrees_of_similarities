@@ -43,7 +43,7 @@ def format_eval(input_fol, gold_input_fol, param, i, eval_script = None):
 	if not eval_script:
 		print "please specify the corect evaluation script: score_scale.pl | score_maxdiff.pl"
 		return None
-	folder = os.path.join('LogitBackoff_eval', param)
+	folder = os.path.join('LogitBackoff_eval_test', param)
 	if not os.path.exists(folder):
 		os.mkdir(folder)
 	output_folder = os.path.join(folder, i)
@@ -66,7 +66,7 @@ def format_eval(input_fol, gold_input_fol, param, i, eval_script = None):
 			run_eval(cmd)
 
 def general_eval(input_dir, param, i):
-	folder = os.path.join('LogitBackoff_eval', param)
+	folder = os.path.join('LogitBackoff_eval_test', param)
 	output_folder = os.path.join(folder, i)
 	values_MD = defaultdict(list)
 	values_S = defaultdict(list)
@@ -103,7 +103,7 @@ def general_eval(input_dir, param, i):
 	s_file.close()
 
 def iter_eval(input_dir, param):
-	output_folder = os.path.join('LogitBackoff_eval', param)
+	output_folder = os.path.join('LogitBackoff_eval_test', param)
 	values_MD = defaultdict(list)
 	values_S = defaultdict(list)
 	for f in os.listdir(output_folder):
@@ -133,8 +133,8 @@ def iter_eval(input_dir, param):
 	s_file.close()
 
 if __name__== "__main__":
-	if not os.path.exists('LogitBackoff_eval'):
-		os.mkdir('LogitBackoff_eval')
+	if not os.path.exists('LogitBackoff_eval_test'):
+		os.mkdir('LogitBackoff_eval_test')
 	main_folder = 'Logit_output_backoff_DM_test/'
 	for param in os.listdir(main_folder):
 		p_folder = os.path.join(main_folder, param)

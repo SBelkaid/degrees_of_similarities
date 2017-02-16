@@ -27,7 +27,7 @@
 0.785569785017	"tool:chisel"
 0.751354722515	"artwork:sculpture"
 0.750721411662	"utensil:spoon"
-0.696469645087	"nourishment:banana"
+0.703501432732	"nourishment:banana"
 0.68114724117	"girl:person"
 0.668887403303	"person:girl"
 0.58168682513	"movie:comedy"

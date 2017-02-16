@@ -1,0 +1,6 @@
+0.4	"hungry:fed"
+0.4	"ugly:beautiful"
+0.4	"wealthy:poor"
+0.2	"strong:weak"
+0.2	"beautiful:ugly"
+0.0	"immortal:die"

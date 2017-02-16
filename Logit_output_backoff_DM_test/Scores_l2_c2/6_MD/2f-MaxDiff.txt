@@ -54,7 +54,7 @@
 "building:lobby" "mailbox:flag" "minute:second" "couch:arm" "minute:second" "building:lobby"
 "church:nave" "week:day" "branch:tree" "mailbox:flag" "church:nave" "week:day"
 "cave:entrance" "lamp:shade" "lobby:building" "screen:computer" "cave:entrance" "lobby:building"
-"shore:sea" "car:wheels" "barnyard:henhouse" "airplane:cockpit" "shore:sea" "barnyard:henhouse"
+"shore:sea" "car:wheels" "barnyard:henhouse" "airplane:cockpit" "shore:sea" "car:wheels"
 "chair:legs" "home:kitchen" "minute:second" "state:city" "state:city" "minute:second"
 "hotel:lobby" "river:delta" "bed:frame" "coast:east" "hotel:lobby" "river:delta"
 "tree:branch" "building:lobby" "hospital:wing" "automobile:trunk" "hospital:wing" "building:lobby"

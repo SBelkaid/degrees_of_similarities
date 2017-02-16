@@ -17,7 +17,7 @@
 "artist:paint" "rabbit:hop" "housekeeper:dust" "tailor:sew" "artist:paint" "housekeeper:dust"
 "roar:lion" "boxer:fight" "water:spill" "computer:compute" "roar:lion" "water:spill"
 "chef:cook" "pastor:preach" "musician:play" "fish:swim" "musician:play" "fish:swim"
-"shovel:dig" "tree:grow" "backhoe:dig" "baker:knead" "tree:grow" "shovel:dig"
+"shovel:dig" "tree:grow" "backhoe:dig" "baker:knead" "tree:grow" "backhoe:dig"
 "lion:roar" "water:spill" "baker:knead" "dynamite:explode" "lion:roar" "water:spill"
 "tree:grow" "artist:paint" "sing:musician" "cloud:rain" "tree:grow" "artist:paint"
 "water:flow" "grow:tree" "computer:compute" "sun:shine" "sun:shine" "grow:tree"

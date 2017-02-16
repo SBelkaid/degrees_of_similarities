@@ -15,6 +15,7 @@
 0.270666154806	"fire:heat"
 0.260093694909	"intellectual:professor"
 0.257661048633	"mogul:wealth"
+0.248736597411	"clay:malleable"
 0.240797095911	"bigot:hateful"
 0.239542271077	"dog:furry"
 0.22481652189	"baby:bald"
@@ -39,4 +40,3 @@
 0.0245567431371	"candy:sweet"
 0.0200274348566	"plain:flat"
 0.0111224235378	"cherry:red"
-0.00992939560118	"clay:malleable"

@@ -36,7 +36,7 @@
 "mammal:gorilla" "book:novel" "meat:beef" "herb:basil" "book:novel" "meat:beef"
 "container:jug" "daisy:flower" "color:green" "father:family" "father:family" "color:green"
 "mica:mineral" "seat:couch" "furniture:desk" "film:drama" "seat:couch" "furniture:desk"
-"bedding:sheet" "instrument:piano" "flower:daisy" "internet:website" "instrument:piano" "internet:website"
+"bedding:sheet" "instrument:piano" "flower:daisy" "internet:website" "internet:website" "instrument:piano"
 "furniture:chair" "furniture:couch" "fruit:apple" "mineral:mica" "fruit:apple" "furniture:chair"
 "cordless:phone" "worker:librarian" "currency:dollar" "pet:cat" "currency:dollar" "pet:cat"
 "art:sculpture" "animal:raccoon" "shoe:boot" "appliance:refrigerator" "art:sculpture" "shoe:boot"

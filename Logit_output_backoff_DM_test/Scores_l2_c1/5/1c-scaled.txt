@@ -37,6 +37,6 @@
 0.0452199949434	"mammal:gorilla"
 0.0405161257919	"furniture:couch"
 0.0363926773408	"worker:librarian"
+0.0351339542257	"internet:website"
 0.0294935207282	"dish:bowl"
 0.0258693035599	"cordless:phone"
-0.00727370484275	"internet:website"

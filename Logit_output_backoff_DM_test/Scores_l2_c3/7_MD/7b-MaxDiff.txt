@@ -23,7 +23,7 @@
 "lawyer:client" "student:professor" "vet:animal" "seller:buyer" "seller:buyer" "lawyer:client"
 "parent:child" "client:attorney" "seller:customer" "accountant:taxpayer" "parent:child" "client:attorney"
 "shopkeeper:patron" "salesperson:customer" "child:nanny" "clerk:customer" "child:nanny" "salesperson:customer"
-"orator:audience" "arborist:tree" "accountant:taxpayer" "tree:arborist" "orator:audience" "arborist:tree"
+"orator:audience" "arborist:tree" "accountant:taxpayer" "tree:arborist" "orator:audience" "accountant:taxpayer"
 "clerk:customer" "vet:animal" "proprietor:customer" "student:professor" "student:professor" "vet:animal"
 "mechanic:car" "mother:child" "lawyer:client" "parent:child" "mother:child" "parent:child"
 "preacher:congregation" "professor:student" "seller:buyer" "nanny:child" "seller:buyer" "professor:student"

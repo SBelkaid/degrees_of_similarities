@@ -70,6 +70,6 @@
 "cigarette:smoke" "camera:photograph" "stove:cook" "airplane:fly" "stove:cook" "airplane:fly"
 "fork:eat" "knife:cut" "shovel:dig" "pencil:write" "knife:cut" "pencil:write"
 "telephone:call" "oven:cook" "sleep:bed" "needle:sew" "sleep:bed" "oven:cook"
-"lotion:moisturize" "sweep:broom" "call:phone" "pen:write" "pen:write" "lotion:moisturize"
+"lotion:moisturize" "sweep:broom" "call:phone" "pen:write" "pen:write" "call:phone"
 "bed:sleep" "car:drive" "stab:knife" "calculator:add" "bed:sleep" "stab:knife"
 "phone:call" "hammer:pound" "drive:car" "dollar:purchase" "phone:call" "drive:car"

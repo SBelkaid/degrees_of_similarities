@@ -10,6 +10,7 @@
 0.984551116379	"meat:ham"
 0.982333310627	"seat:chair"
 0.980387624973	"beverage:water"
+0.975909385838	"nourishment:banana"
 0.97030812793	"clothing:shirt"
 0.966106558245	"dish:plate"
 0.96436504806	"seasoning:pepper"
@@ -38,4 +39,3 @@
 0.184053192418	"garment:skirt"
 0.0213519905225	"shoe:sandal"
 0.0123053996603	"clothing:sock"
-1.5669393035e-05	"nourishment:banana"

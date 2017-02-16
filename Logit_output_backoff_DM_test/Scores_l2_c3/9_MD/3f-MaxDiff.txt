@@ -45,7 +45,7 @@
 "spoon:shovel" "mountain:hill" "garden:forest" "worm:snake" "mountain:hill" "garden:forest"
 "hill:ramp" "noise:music" "shovel:spoon" "garden:forest" "garden:forest" "hill:ramp"
 "tree:flower" "wagon:trailer" "pillow:cushion" "bottle:cylinder" "tree:flower" "pillow:cushion"
-"brick:concrete" "keyboard:calculator" "pond:bowl" "spur:arch" "brick:concrete" "keyboard:calculator"
+"brick:concrete" "keyboard:calculator" "pond:bowl" "spur:arch" "brick:concrete" "spur:arch"
 "paper:parchment" "mountain:hill" "picture:drawing" "tent:house" "mountain:hill" "paper:parchment"
 "spoon:shovel" "bandage:sling" "novel:autobiography" "worm:snake" "novel:autobiography" "bandage:sling"
 "lamp:sun" "pen:pencil" "hole:circle" "glass:vase" "hole:circle" "pen:pencil"

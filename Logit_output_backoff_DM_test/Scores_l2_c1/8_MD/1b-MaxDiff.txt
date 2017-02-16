@@ -44,7 +44,7 @@
 "fork:utensil" "seat:stool" "instrument:clarinet" "artwork:sculpture" "seat:stool" "instrument:clarinet"
 "beverage:water" "girl:person" "clothing:sock" "transportation:bus" "transportation:bus" "beverage:water"
 "dish:plate" "movie:comedy" "sock:clothing" "person:girl" "dish:plate" "person:girl"
-"vegetable:spinach" "garment:skirt" "nourishment:banana" "animal:dog" "animal:dog" "nourishment:banana"
+"vegetable:spinach" "garment:skirt" "nourishment:banana" "animal:dog" "animal:dog" "vegetable:spinach"
 "tool:hammer" "clothing:shirt" "chair:furniture" "food:apple" "tool:hammer" "clothing:shirt"
 "apple:food" "tool:chisel" "seat:chair" "cat:animal" "cat:animal" "seat:chair"
 "chisel:tool" "tool:screwdriver" "appliance:fridge" "furniture:chair" "tool:screwdriver" "furniture:chair"

@@ -1,6 +1,5 @@
 0.993999363072	"steel:strong"
 0.940488411283	"man:tall"
-0.930586733004	"clay:malleable"
 0.884422552897	"light:bright"
 0.883110782792	"steel:tough"
 0.874490991801	"fire:hot"
@@ -40,3 +39,4 @@
 0.0245567431371	"candy:sweet"
 0.0200274348566	"plain:flat"
 0.0111224235378	"cherry:red"
+0.00168769043825	"clay:malleable"

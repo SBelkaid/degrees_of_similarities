@@ -18,7 +18,7 @@ def extract_wp(path_to_dir):
     wp_files = os.listdir(path_to_dir)
     word_pairs = []
     for fn in wp_files:
-        raw_pairs = open(word_pairs_dir+fn, 'r').read().split('\n')
+        raw_pairs = open(path_to_dir+fn, 'r').read().split('\n')
         list_of_pairs = [e.strip('"').split(':') for e in raw_pairs]
         word_pairs.extend(list_of_pairs)
     return word_pairs

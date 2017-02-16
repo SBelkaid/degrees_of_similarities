@@ -1,3 +1,4 @@
+0.997454926278	"internet:website"
 0.988458859752	"book:novel"
 0.978562299425	"fish:trout"
 0.977597509365	"family:father"
@@ -7,7 +8,6 @@
 0.948944389833	"instrument:piano"
 0.938854670345	"space:star"
 0.929127176414	"light:lamp"
-0.922971508424	"internet:website"
 0.921216587387	"father:family"
 0.918529176012	"art:sculpture"
 0.864775704478	"seat:couch"

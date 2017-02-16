@@ -14,7 +14,6 @@
 0.862166650091	"computer:laptop"
 0.861512323011	"color:green"
 0.856149766181	"flower:daisy"
-0.811495648485	"internet:website"
 0.811243963684	"tool:hammer"
 0.811188777512	"drink:milk"
 0.788172615797	"meat:beef"
@@ -40,3 +39,4 @@
 0.0363926773408	"worker:librarian"
 0.0294935207282	"dish:bowl"
 0.0258693035599	"cordless:phone"
+0.0156903128897	"internet:website"

@@ -94,7 +94,7 @@
 "beverage:water" "fork:utensil" "garment:shirt" "food:apple" "beverage:water" "food:apple"
 "girl:person" "movie:comedy" "animal:dog" "shoe:sandal" "animal:dog" "girl:person"
 "seat:stool" "clothing:shirt" "transportation:bus" "apple:food" "transportation:bus" "seat:stool"
-"fuel:gasoline" "nourishment:banana" "chisel:tool" "appliance:fridge" "chisel:tool" "fuel:gasoline"
+"fuel:gasoline" "nourishment:banana" "chisel:tool" "appliance:fridge" "chisel:tool" "nourishment:banana"
 "chair:furniture" "clothing:sock" "utensil:spoon" "seasoning:pepper" "seasoning:pepper" "chair:furniture"
 "tool:chisel" "person:girl" "artwork:sculpture" "garment:skirt" "tool:chisel" "artwork:sculpture"
 "cat:animal" "tool:hammer" "instrument:clarinet" "instrument:violin" "cat:animal" "instrument:clarinet"

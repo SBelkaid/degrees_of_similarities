@@ -32,7 +32,7 @@
 "cat:dog" "flour:sugar" "cassette:record" "pillow:mattress" "flour:sugar" "cassette:record"
 "man:woman" "couch:recliner" "car:bus" "dog:cat" "man:woman" "car:bus"
 "book:magazine" "dog:bitch" "male:female" "shirt:blouse" "male:female" "book:magazine"
-"jazz:blues" "puppy:kitten" "dogwood:elm" "mother:father" "mother:father" "dogwood:elm"
+"jazz:blues" "puppy:kitten" "dogwood:elm" "mother:father" "mother:father" "puppy:kitten"
 "algebra:geometry" "cup:lid" "fiction:poetry" "female:male" "female:male" "fiction:poetry"
 "treble:bass" "duck:goose" "father:mother" "violin:cello" "father:mother" "duck:goose"
 "sugar:flour" "almond:pecan" "nephew:niece" "pen:pencil" "nephew:niece" "sugar:flour"

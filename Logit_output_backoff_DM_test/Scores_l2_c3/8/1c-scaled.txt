@@ -32,7 +32,6 @@
 0.247829374877	"herb:basil"
 0.0687527079037	"phone:cordless"
 0.0641394633108	"animal:raccoon"
-0.0583655904974	"internet:website"
 0.0452390204619	"container:jug"
 0.0368145580793	"cordless:phone"
 0.0287442935352	"bedding:sheet"
@@ -40,3 +39,4 @@
 0.0220139938855	"mammal:gorilla"
 0.0198725995053	"furniture:couch"
 0.0193297255812	"worker:librarian"
+0.00230531149269	"internet:website"

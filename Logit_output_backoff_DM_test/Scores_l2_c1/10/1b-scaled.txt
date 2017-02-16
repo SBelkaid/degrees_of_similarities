@@ -10,7 +10,6 @@
 0.954215886698	"fridge:appliance"
 0.943302065819	"seat:chair"
 0.924592515334	"dish:plate"
-0.898751276975	"nourishment:banana"
 0.895890035388	"meat:ham"
 0.882521557974	"furniture:chair"
 0.877069951394	"tool:hammer"
@@ -38,4 +37,5 @@
 0.113035802192	"sock:clothing"
 0.0910749494667	"garment:skirt"
 0.0442773264622	"clothing:sock"
+0.0392865075661	"nourishment:banana"
 0.00197987735817	"shoe:sandal"

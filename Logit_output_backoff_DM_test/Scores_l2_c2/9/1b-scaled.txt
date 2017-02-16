@@ -36,6 +36,6 @@
 0.259095774757	"garment:shirt"
 0.189368936608	"sock:clothing"
 0.184053192418	"garment:skirt"
-0.0784270813298	"nourishment:banana"
 0.0213519905225	"shoe:sandal"
+0.0210549736379	"nourishment:banana"
 0.0123053996603	"clothing:sock"

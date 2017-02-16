@@ -18,7 +18,7 @@
 "teacher:learn" "apartment:lease" "flashlight:bulb" "faith:believe" "teacher:learn" "faith:believe"
 "remote:tv" "electricity:stove" "water:shower" "battery:phone" "battery:phone" "water:shower"
 "license:drive" "batteries:controller" "battery:flashlight" "electricity:stove" "license:drive" "battery:flashlight"
-"mouse:computer" "electricity:television" "match:wood" "batteries:controller" "mouse:computer" "electricity:television"
+"mouse:computer" "electricity:television" "match:wood" "batteries:controller" "mouse:computer" "batteries:controller"
 "brush:paint" "teacher:learn" "lease:apartment" "bullet:gun" "brush:paint" "teacher:learn"
 "monitor:computer" "water:irrigation" "gas:furnace" "faith:believe" "water:irrigation" "monitor:computer"
 "motor:boat" "apartment:lease" "water:shower" "wood:fireplace" "motor:boat" "water:shower"
