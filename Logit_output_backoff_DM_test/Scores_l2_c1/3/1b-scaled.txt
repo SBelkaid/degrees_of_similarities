@@ -23,7 +23,6 @@
 0.71448035228	"preservative:salt"
 0.677969506259	"vessel:pot"
 0.665929340506	"utensil:spoon"
-0.663910000809	"nourishment:banana"
 0.662153102924	"food:apple"
 0.642538671451	"fuel:gasoline"
 0.552360327251	"tool:chisel"
@@ -38,4 +37,5 @@
 0.113035802192	"sock:clothing"
 0.0910749494667	"garment:skirt"
 0.0442773264622	"clothing:sock"
+0.0289348715645	"nourishment:banana"
 0.00197987735817	"shoe:sandal"

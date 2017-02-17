@@ -12,7 +12,7 @@
 "sell:customer" "instruct:subordinate" "pay:debtor" "order:soldier" "sell:customer" "order:soldier"
 "debtor:pay" "lead:member" "follower:inspire" "vendor:consumer" "lead:member" "debtor:pay"
 "give:receiver" "treat:patient" "sell:buyer" "sentence:criminal" "sentence:criminal" "treat:patient"
-"commercial:viewer" "honor:hero" "child:lecture" "house:home" "house:home" "honor:hero"
+"commercial:viewer" "honor:hero" "child:lecture" "house:home" "honor:hero" "house:home"
 "borrow:bank" "perform:audience" "barrio:community" "design:shopper" "perform:audience" "borrow:bank"
 "preach:parishioner" "fight:enemy" "question:suspect" "preach:disciple" "fight:enemy" "question:suspect"
 "sell:buyer" "give:receiver" "sentence:criminal" "hurt:victim" "sentence:criminal" "give:receiver"

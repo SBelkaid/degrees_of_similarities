@@ -10,7 +10,7 @@
 "chant:prayer" "charity:donate" "visit:sick" "talk:speech" "charity:donate" "chant:prayer"
 "eat:food" "hunt:deer" "capture:villain" "floor:sweep" "eat:food" "floor:sweep"
 "cook:meal" "clean:house" "paint:canvas" "forgive:sin" "forgive:sin" "cook:meal"
-"slay:dragon" "plant:flower" "forgive:insult" "row:boat" "slay:dragon" "plant:flower"
+"slay:dragon" "plant:flower" "forgive:insult" "row:boat" "plant:flower" "slay:dragon"
 "teach:student" "cook:food" "nurse:baby" "master:craft" "cook:food" "teach:student"
 "close:door" "play:instrument" "paint:picture" "fight:war" "close:door" "play:instrument"
 "boat:row" "act:scene" "sew:rip" "dig:ditch" "act:scene" "dig:ditch"

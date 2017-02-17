@@ -1,3 +1,4 @@
+0.996471317198	"clay:malleable"
 0.994113313773	"steel:strong"
 0.938557913821	"man:tall"
 0.88248084611	"steel:tough"
@@ -33,7 +34,6 @@
 0.120469347044	"car:fast"
 0.110799857034	"flimsy:paper"
 0.0937707636555	"heat:fire"
-0.0801696666727	"clay:malleable"
 0.0477541849406	"athlete:fit"
 0.0460534979547	"fizzy:pop"
 0.041225034054	"steel:strength"

@@ -1,4 +1,5 @@
 0.99495939187	"book:novel"
+0.992801905139	"internet:website"
 0.992658732913	"fish:trout"
 0.987636790326	"space:star"
 0.985819606442	"family:father"
@@ -39,4 +40,3 @@
 0.0220139938855	"mammal:gorilla"
 0.0198725995053	"furniture:couch"
 0.0193297255812	"worker:librarian"
-0.00230531149269	"internet:website"

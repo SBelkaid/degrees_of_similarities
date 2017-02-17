@@ -25,7 +25,7 @@
 "child:nanny" "reader:textbook" "salesperson:buyer" "teacher:student" "teacher:student" "child:nanny"
 "orator:audience" "boss:employee" "attorney:client" "coach:player" "boss:employee" "orator:audience"
 "father:son" "client:attorney" "lender:borrower" "coach:athlete" "lender:borrower" "coach:athlete"
-"textbook:reader" "client:attorney" "attorney:client" "student:professor" "student:professor" "client:attorney"
+"textbook:reader" "client:attorney" "attorney:client" "student:professor" "student:professor" "attorney:client"
 "coach:athlete" "professor:student" "preacher:congregation" "father:son" "professor:student" "coach:athlete"
 "coach:player" "proprietor:customer" "clerk:customer" "child:nanny" "child:nanny" "coach:player"
 "preacher:parishioner" "seller:customer" "accountant:taxpayer" "salesperson:customer" "salesperson:customer" "preacher:parishioner"

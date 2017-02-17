@@ -12,7 +12,7 @@
 "jazz:blues" "cat:dog" "sugar:flour" "book:magazine" "book:magazine" "sugar:flour"
 "record:cassette" "violin:cello" "almond:pecan" "car:bus" "car:bus" "record:cassette"
 "cassette:record" "stallion:mare" "man:woman" "pen:pencil" "man:woman" "cassette:record"
-"male:female" "dogwood:elm" "dog:bitch" "couch:recliner" "male:female" "dog:bitch"
+"male:female" "dogwood:elm" "dog:bitch" "couch:recliner" "male:female" "couch:recliner"
 "salt:pepper" "bolt:nut" "cup:lid" "kitten:puppy" "salt:pepper" "bolt:nut"
 "female:male" "boy:girl" "algebra:geometry" "trout:salmon" "female:male" "boy:girl"
 "father:mother" "treble:bass" "dog:cat" "rooster:hen" "father:mother" "rooster:hen"

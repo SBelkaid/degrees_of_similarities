@@ -1,5 +1,6 @@
 0.999999995552	"animal:dog"
 0.999999639962	"transportation:bus"
+0.999992336911	"nourishment:banana"
 0.999970458978	"seat:stool"
 0.998713174826	"instrument:clarinet"
 0.996675022152	"cat:animal"
@@ -37,5 +38,4 @@
 0.113035802192	"sock:clothing"
 0.0910749494667	"garment:skirt"
 0.0442773264622	"clothing:sock"
-0.0392865075661	"nourishment:banana"
 0.00197987735817	"shoe:sandal"

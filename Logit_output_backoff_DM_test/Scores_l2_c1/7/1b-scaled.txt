@@ -32,7 +32,7 @@
 0.46081982122	"person:girl"
 0.404940536235	"garment:shirt"
 0.39522321699	"girl:person"
-0.307112048611	"nourishment:banana"
+0.390932834632	"nourishment:banana"
 0.297128234537	"movie:comedy"
 0.209958967213	"vegetable:spinach"
 0.113035802192	"sock:clothing"

@@ -72,7 +72,7 @@
 "fence:screen" "flower:tree" "fence:hedge" "bottle:cylinder" "flower:tree" "fence:hedge"
 "brick:concrete" "cylinder:bottle" "bandage:sling" "hill:mountain" "bandage:sling" "hill:mountain"
 "table:desk" "house:tent" "pencil:pen" "spoon:bowl" "spoon:bowl" "pencil:pen"
-"sky:ceiling" "shovel:spoon" "ladder:stairs" "worm:snake" "worm:snake" "sky:ceiling"
+"sky:ceiling" "shovel:spoon" "ladder:stairs" "worm:snake" "worm:snake" "ladder:stairs"
 "knife:sword" "tree:flower" "snake:worm" "picture:drawing" "tree:flower" "picture:drawing"
 "keyboard:calculator" "chair:sofa" "hole:circle" "lamp:sun" "hole:circle" "chair:sofa"
 "glass:vase" "pillow:cushion" "pond:bowl" "wagon:trailer" "glass:vase" "pillow:cushion"

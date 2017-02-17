@@ -30,7 +30,6 @@
 0.361839017031	"film:drama"
 0.177090356587	"herb:basil"
 0.171000791002	"mica:mineral"
-0.0991523455484	"internet:website"
 0.0892648237698	"animal:raccoon"
 0.0806029727917	"container:jug"
 0.0748965893933	"phone:cordless"
@@ -40,3 +39,4 @@
 0.0363926773408	"worker:librarian"
 0.0294935207282	"dish:bowl"
 0.0258693035599	"cordless:phone"
+0.0240669928402	"internet:website"

@@ -34,7 +34,7 @@
 "tool:hammer" "fuel:gasoline" "girl:person" "sock:clothing" "tool:hammer" "fuel:gasoline"
 "fruit:apple" "person:girl" "furniture:chair" "instrument:violin" "instrument:violin" "furniture:chair"
 "seat:stool" "dish:plate" "fridge:appliance" "transportation:bus" "transportation:bus" "seat:stool"
-"nourishment:banana" "fork:utensil" "vegetable:spinach" "movie:comedy" "fork:utensil" "movie:comedy"
+"nourishment:banana" "fork:utensil" "vegetable:spinach" "movie:comedy" "fork:utensil" "nourishment:banana"
 "garment:shirt" "utensil:spoon" "artwork:sculpture" "meat:ham" "meat:ham" "utensil:spoon"
 "appliance:fridge" "chair:furniture" "home:tree" "tool:screwdriver" "home:tree" "tool:screwdriver"
 "instrument:clarinet" "tool:chisel" "lubricant:oil" "food:apple" "instrument:clarinet" "lubricant:oil"

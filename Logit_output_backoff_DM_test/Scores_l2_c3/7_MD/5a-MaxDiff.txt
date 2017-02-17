@@ -86,7 +86,7 @@
 "water:wet" "bone:brittle" "pop:fizzy" "sunburn:painful" "bone:brittle" "sunburn:painful"
 "tall:man" "fizzy:pop" "plain:flat" "villain:evil" "tall:man" "villain:evil"
 "steel:strength" "snow:cold" "prince:charming" "man:tall" "man:tall" "snow:cold"
-"clay:malleable" "cement:solid" "steel:strong" "professor:intellectual" "clay:malleable" "steel:strong"
+"clay:malleable" "cement:solid" "steel:strong" "professor:intellectual" "steel:strong" "clay:malleable"
 "novice:inexperience" "baby:bald" "bigot:hateful" "lipstick:red" "lipstick:red" "bigot:hateful"
 "pillow:soft" "mogul:wealth" "apple:red" "dog:furry" "apple:red" "pillow:soft"
 "blanket:soft" "athlete:fit" "steel:tough" "tycoon:wealthy" "steel:tough" "blanket:soft"

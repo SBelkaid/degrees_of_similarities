@@ -1,3 +1,4 @@
+1.0	"nourishment:banana"
 0.999999999506	"animal:dog"
 0.99999996789	"transportation:bus"
 0.999992707796	"seat:stool"
@@ -8,7 +9,6 @@
 0.992695820596	"tool:screwdriver"
 0.985610048158	"fridge:appliance"
 0.97391170298	"seat:chair"
-0.969679129784	"nourishment:banana"
 0.968187630743	"beverage:water"
 0.931390328202	"dish:plate"
 0.930031528993	"meat:ham"

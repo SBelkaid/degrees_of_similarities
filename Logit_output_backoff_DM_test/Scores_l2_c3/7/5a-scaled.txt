@@ -1,6 +1,6 @@
-0.999999998228	"clay:malleable"
 0.992918859929	"steel:strong"
 0.987488599312	"tall:man"
+0.968269621702	"clay:malleable"
 0.936129213385	"man:tall"
 0.910104665748	"light:bright"
 0.878358473348	"steel:tough"

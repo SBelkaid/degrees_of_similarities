@@ -37,6 +37,6 @@
 0.0475261693518	"athlete:fit"
 0.0465487826302	"steel:strength"
 0.0245567431371	"candy:sweet"
+0.0200873953837	"clay:malleable"
 0.0200274348566	"plain:flat"
 0.0111224235378	"cherry:red"
-0.00168769043825	"clay:malleable"

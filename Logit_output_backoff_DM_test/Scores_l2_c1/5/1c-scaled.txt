@@ -1,3 +1,4 @@
+0.990787148661	"internet:website"
 0.988724585971	"book:novel"
 0.979660430819	"family:father"
 0.978828847866	"fish:trout"
@@ -37,6 +38,5 @@
 0.0452199949434	"mammal:gorilla"
 0.0405161257919	"furniture:couch"
 0.0363926773408	"worker:librarian"
-0.0351339542257	"internet:website"
 0.0294935207282	"dish:bowl"
 0.0258693035599	"cordless:phone"

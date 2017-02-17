@@ -1,4 +1,5 @@
 0.988458859752	"book:novel"
+0.984727805465	"internet:website"
 0.978562299425	"fish:trout"
 0.977597509365	"family:father"
 0.954719847184	"currency:dollar"
@@ -30,7 +31,6 @@
 0.32050712102	"film:drama"
 0.173041395638	"herb:basil"
 0.149318626167	"mica:mineral"
-0.124021345555	"internet:website"
 0.0964550319354	"animal:raccoon"
 0.0886722335428	"container:jug"
 0.079258682659	"phone:cordless"

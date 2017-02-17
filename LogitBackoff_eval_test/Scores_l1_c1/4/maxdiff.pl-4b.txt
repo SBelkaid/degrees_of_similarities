@@ -6,7 +6,7 @@ Number of MaxDiff Questions:                      88
 Number of Least Illustrative Guessed Correctly:   23
 Number of Least Illustrative Guessed Incorrectly: 65
 Accuracy of Least Illustrative Guesses:            26.1%
-Number of Most Illustrative Guessed Correctly:    37
-Number of Most Illustrative Guessed Incorrectly:  51
-Accuracy of Most Illustrative Guesses:             42.0%
-Overall Accuracy:                                  34.1%
+Number of Most Illustrative Guessed Correctly:    31
+Number of Most Illustrative Guessed Incorrectly:  57
+Accuracy of Most Illustrative Guesses:             35.2%
+Overall Accuracy:                                  30.7%

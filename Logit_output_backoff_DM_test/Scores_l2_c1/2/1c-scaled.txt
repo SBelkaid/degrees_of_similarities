@@ -23,7 +23,6 @@
 0.715624125813	"shoe:boot"
 0.715372337931	"refrigerator:appliance"
 0.685758028003	"furniture:chair"
-0.663910000809	"internet:website"
 0.639106073198	"bird:cardinal"
 0.60650940752	"appliance:refrigerator"
 0.436715988259	"daisy:flower"
@@ -40,3 +39,4 @@
 0.0363926773408	"worker:librarian"
 0.0294935207282	"dish:bowl"
 0.0258693035599	"cordless:phone"
+0.00239860002428	"internet:website"

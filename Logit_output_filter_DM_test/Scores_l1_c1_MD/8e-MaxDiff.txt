@@ -22,7 +22,7 @@
 "team:trophy" "artist:masterpiece" "astronaut:space" "farmer:harvest" "team:trophy" "farmer:harvest"
 "dress:seamstress" "student:degree" "artist:masterpiece" "masterpiece:artist" "student:degree" "masterpiece:artist"
 "athlete:record" "traveler:destination" "athlete:medal" "farmer:food" "athlete:medal" "athlete:record"
-"fire:arsonist" "hunter:prey" "lawyer:justice" "politician:office" "fire:arsonist" "hunter:prey"
+"fire:arsonist" "hunter:prey" "lawyer:justice" "politician:office" "fire:arsonist" "politician:office"
 "painter:portrait" "singer:contract" "fix:addict" "hedonist:pleasure" "fix:addict" "singer:contract"
 "musician:applause" "team:trophy" "arsonist:fire" "addict:fix" "addict:fix" "team:trophy"
 "patient:health" "chef:meal" "fire:arsonist" "dress:seamstress" "fire:arsonist" "chef:meal"

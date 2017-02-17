@@ -51,7 +51,7 @@
 "handle:turn" "hammer:pound" "phone:call" "needle:sew" "phone:call" "handle:turn"
 "shovel:dig" "airplane:fly" "cook:stove" "camera:photograph" "cook:stove" "airplane:fly"
 "sweep:broom" "eat:fork" "bed:sleep" "cook:stove" "bed:sleep" "cook:stove"
-"shovel:dig" "drive:car" "lotion:moisturize" "needle:sew" "drive:car" "shovel:dig"
+"shovel:dig" "drive:car" "lotion:moisturize" "needle:sew" "drive:car" "lotion:moisturize"
 "car:drive" "airplane:fly" "oven:cook" "fork:eat" "car:drive" "airplane:fly"
 "telephone:call" "stove:cook" "handle:turn" "call:phone" "stove:cook" "call:phone"
 "camera:photograph" "dollar:purchase" "cigarette:smoke" "knife:cut" "knife:cut" "camera:photograph"

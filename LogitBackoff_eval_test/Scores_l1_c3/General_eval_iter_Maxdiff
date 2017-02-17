@@ -1,8 +1,8 @@
-Number of Most Illustrative Guessed Correctly	31.3391304348	0.0671791640433
-Overall Accuracy	29.2766666667	0.140137135053
+Number of Most Illustrative Guessed Correctly	31.0579710145	0.0934257508865
+Overall Accuracy	29.1663768116	0.0529950850586
 Number of MaxDiff Questions	101.405797101	2.01948391737e-28
-Accuracy of Least Illustrative Guesses	27.668115942	0.37839403484
-Accuracy of Most Illustrative Guesses	30.8913043478	0.0646649863459
-Number of Least Illustrative Guessed Correctly	28.2376811594	0.341365259403
-Number of Most Illustrative Guessed Incorrectly	70.0666666667	0.0671791640388
-Number of Least Illustrative Guessed Incorrectly	73.168115942	0.341365259383
+Accuracy of Least Illustrative Guesses	27.6662318841	0.181022075199
+Accuracy of Most Illustrative Guesses	30.6663768116	0.0912895610074
+Number of Least Illustrative Guessed Correctly	28.2579710145	0.192514177688
+Number of Most Illustrative Guessed Incorrectly	70.347826087	0.0934257508954
+Number of Least Illustrative Guessed Incorrectly	73.147826087	0.192514177689

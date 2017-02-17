@@ -1,5 +1,5 @@
 "mother:father" "rooster:hen" "shirt:blouse" "record:cassette" "record:cassette" "mother:father"
-"dogwood:elm" "cup:lid" "jazz:blues" "salt:pepper" "salt:pepper" "cup:lid"
+"dogwood:elm" "cup:lid" "jazz:blues" "salt:pepper" "salt:pepper" "dogwood:elm"
 "female:male" "boy:girl" "puppy:kitten" "dog:bitch" "boy:girl" "female:male"
 "stallion:mare" "duck:goose" "kitten:puppy" "dog:cat" "dog:cat" "duck:goose"
 "pen:pencil" "flour:sugar" "car:bus" "fiction:poetry" "car:bus" "flour:sugar"

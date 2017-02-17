@@ -85,7 +85,7 @@
 "meal:dinner" "film:drama" "meat:beef" "beverage:water" "meat:beef" "meal:dinner"
 "family:father" "furniture:chair" "pet:cat" "light:lamp" "family:father" "light:lamp"
 "computer:laptop" "flower:daisy" "currency:dollar" "bedding:sheet" "currency:dollar" "computer:laptop"
-"color:green" "worker:librarian" "internet:website" "mammal:gorilla" "color:green" "internet:website"
+"color:green" "worker:librarian" "internet:website" "mammal:gorilla" "color:green" "worker:librarian"
 "instrument:piano" "book:novel" "furniture:couch" "fish:trout" "book:novel" "fish:trout"
 "mica:mineral" "appliance:refrigerator" "mineral:mica" "animal:raccoon" "appliance:refrigerator" "mineral:mica"
 "container:jug" "phone:cordless" "cordless:phone" "herb:basil" "herb:basil" "phone:cordless"

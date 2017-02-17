@@ -24,7 +24,7 @@
 0.175656886444	"calculator:add"
 0.114994607015	"hammer:pound"
 0.0845688576977	"sweep:broom"
-0.0341109951119	"lotion:moisturize"
+0.07583518829	"lotion:moisturize"
 0.00381174496605	"blender:puree"
 0.00373265115878	"dollar:purchase"
 0.000395475174593	"broom:sweep"

@@ -3,7 +3,7 @@
 0.999999999983	"stab:knife"
 0.999999782843	"cook:stove"
 0.999999769788	"car:drive"
-0.999874831621	"lotion:moisturize"
+0.999998615054	"lotion:moisturize"
 0.99970564689	"knife:cut"
 0.999349414133	"photograph:camera"
 0.999282496134	"stove:cook"

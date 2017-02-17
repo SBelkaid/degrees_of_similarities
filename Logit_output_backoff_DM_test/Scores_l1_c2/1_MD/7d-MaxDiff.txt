@@ -76,7 +76,7 @@
 "execute:criminal" "forgive:sin" "cook:meal" "dig:ditch" "forgive:sin" "cook:meal"
 "talk:speech" "paint:picture" "plants:water" "teach:student" "paint:picture" "teach:student"
 "learn:skill" "sew:rip" "cook:food" "donate:charity" "learn:skill" "cook:food"
-"master:craft" "visit:sick" "forgive:sin" "water:plants" "forgive:sin" "water:plants"
+"master:craft" "visit:sick" "forgive:sin" "water:plants" "forgive:sin" "master:craft"
 "clean:house" "slay:dragon" "teach:student" "write:paper" "write:paper" "teach:student"
 "boat:row" "cook:meal" "close:door" "forgive:insult" "close:door" "cook:meal"
 "floor:sweep" "sweep:floor" "capture:villain" "nurse:baby" "sweep:floor" "floor:sweep"

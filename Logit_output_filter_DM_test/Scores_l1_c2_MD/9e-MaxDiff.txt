@@ -51,7 +51,7 @@
 "edge:cliff" "door:inside" "crust:pie" "railing:stair" "edge:cliff" "door:inside"
 "glass:pane" "wall:shelf" "wall:room" "pie:crust" "wall:room" "wall:shelf"
 "porch:house" "shore:lake" "book:cover" "river:bank" "river:bank" "book:cover"
-"sidewalk:yard" "frame:photograph" "yard:sidewalk" "moat:castle" "frame:photograph" "sidewalk:yard"
+"sidewalk:yard" "frame:photograph" "yard:sidewalk" "moat:castle" "frame:photograph" "yard:sidewalk"
 "border:mexico" "sill:window" "picture:frame" "crust:pie" "sill:window" "picture:frame"
 "pie:crust" "bank:river" "book:cover" "margin:paper" "bank:river" "book:cover"
 "forest:clearing" "stream:bank" "shore:lake" "river:bank" "river:bank" "shore:lake"

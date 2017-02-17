@@ -1,3 +1,4 @@
+0.996902258478	"internet:website"
 0.99495939187	"book:novel"
 0.992658732913	"fish:trout"
 0.987636790326	"space:star"
@@ -30,7 +31,6 @@
 0.552112847592	"film:drama"
 0.286778980137	"mica:mineral"
 0.247829374877	"herb:basil"
-0.160807045202	"internet:website"
 0.0687527079037	"phone:cordless"
 0.0641394633108	"animal:raccoon"
 0.0452390204619	"container:jug"

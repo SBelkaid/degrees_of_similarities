@@ -97,7 +97,7 @@
 "fruit:apple" "instrument:piano" "mammal:gorilla" "light:lamp" "fruit:apple" "instrument:piano"
 "dish:bowl" "phone:cordless" "daisy:flower" "currency:dollar" "currency:dollar" "daisy:flower"
 "furniture:chair" "container:jug" "meal:dinner" "fish:trout" "fish:trout" "meal:dinner"
-"book:novel" "furniture:desk" "beverage:water" "internet:website" "internet:website" "book:novel"
+"book:novel" "furniture:desk" "beverage:water" "internet:website" "book:novel" "internet:website"
 "meat:beef" "bedding:sheet" "animal:raccoon" "cordless:phone" "meat:beef" "animal:raccoon"
 "appliance:refrigerator" "family:father" "color:green" "furniture:couch" "family:father" "color:green"
 "drink:milk" "flower:daisy" "space:star" "shoe:boot" "space:star" "flower:daisy"

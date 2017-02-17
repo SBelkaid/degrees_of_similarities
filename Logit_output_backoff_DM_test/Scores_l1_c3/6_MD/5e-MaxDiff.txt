@@ -68,7 +68,7 @@
 "crash:wave" "grow:tree" "baby:cry" "dog:bark" "dog:bark" "grow:tree"
 "lion:roar" "roar:lion" "rabbit:hop" "water:spill" "roar:lion" "lion:roar"
 "cloud:rain" "fish:swim" "bag:contain" "computer:compute" "bag:contain" "fish:swim"
-"heart:beat" "sing:musician" "tailor:sew" "housekeeper:dust" "sing:musician" "heart:beat"
+"heart:beat" "sing:musician" "tailor:sew" "housekeeper:dust" "housekeeper:dust" "sing:musician"
 "chef:cook" "musician:play" "computer:compute" "backhoe:dig" "musician:play" "chef:cook"
 "sun:shine" "rabbit:hop" "ice:melt" "baby:cry" "sun:shine" "ice:melt"
 "musician:sing" "crash:wave" "baker:knead" "dynamite:explode" "musician:sing" "crash:wave"

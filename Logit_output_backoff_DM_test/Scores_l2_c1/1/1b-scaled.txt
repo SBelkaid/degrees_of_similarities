@@ -18,7 +18,6 @@
 0.808697151083	"clothing:shirt"
 0.78154798	"seasoning:pepper"
 0.780659643986	"fruit:apple"
-0.744261659326	"nourishment:banana"
 0.741613553601	"chisel:tool"
 0.719108995982	"chair:furniture"
 0.71448035228	"preservative:salt"
@@ -38,4 +37,5 @@
 0.113035802192	"sock:clothing"
 0.0910749494667	"garment:skirt"
 0.0442773264622	"clothing:sock"
+0.0220072876762	"nourishment:banana"
 0.00197987735817	"shoe:sandal"

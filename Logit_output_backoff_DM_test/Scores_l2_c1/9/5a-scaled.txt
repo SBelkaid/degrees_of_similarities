@@ -1,5 +1,4 @@
 0.993999363072	"steel:strong"
-0.982985486723	"clay:malleable"
 0.940488411283	"man:tall"
 0.884422552897	"light:bright"
 0.883110782792	"steel:tough"
@@ -7,6 +6,7 @@
 0.856391179261	"heat:fire"
 0.814267781626	"tall:man"
 0.788133419486	"lipstick:red"
+0.741952729386	"clay:malleable"
 0.733337213327	"murderer:evil"
 0.544585709075	"pillow:soft"
 0.512101821792	"apple:red"

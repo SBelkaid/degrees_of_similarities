@@ -1,4 +1,3 @@
-0.999996075114	"internet:website"
 0.988724585971	"book:novel"
 0.979660430819	"family:father"
 0.978828847866	"fish:trout"
@@ -29,6 +28,7 @@
 0.436715988259	"daisy:flower"
 0.411505962529	"mineral:mica"
 0.361839017031	"film:drama"
+0.203351505288	"internet:website"
 0.177090356587	"herb:basil"
 0.171000791002	"mica:mineral"
 0.0892648237698	"animal:raccoon"

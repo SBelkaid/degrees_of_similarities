@@ -3,7 +3,6 @@
 0.936129213385	"man:tall"
 0.910104665748	"light:bright"
 0.878358473348	"steel:tough"
-0.876599244892	"clay:malleable"
 0.8641918124	"fire:hot"
 0.829497891778	"lipstick:red"
 0.717452019637	"heat:fire"
@@ -40,3 +39,4 @@
 0.0359242768777	"candy:sweet"
 0.024589868012	"plain:flat"
 0.0172383622886	"cherry:red"
+0.00230531149269	"clay:malleable"

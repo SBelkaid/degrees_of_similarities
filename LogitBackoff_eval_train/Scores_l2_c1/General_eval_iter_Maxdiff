@@ -1,8 +1,8 @@
-Number of Most Illustrative Guessed Correctly	35.2	0.862
-Overall Accuracy	31.895	0.871065
+Number of Most Illustrative Guessed Correctly	35.13	1.9981
+Overall Accuracy	31.9	1.00626
 Number of MaxDiff Questions	107.1	0.0
-Accuracy of Least Illustrative Guesses	30.856	2.180164
-Accuracy of Most Illustrative Guesses	32.932	0.732456
-Number of Least Illustrative Guessed Correctly	33.07	2.5721
-Number of Most Illustrative Guessed Incorrectly	71.9	0.862
-Number of Least Illustrative Guessed Incorrectly	74.03	2.5721
+Accuracy of Least Illustrative Guesses	30.925	1.608785
+Accuracy of Most Illustrative Guesses	32.874	1.698504
+Number of Least Illustrative Guessed Correctly	33.14	1.8664
+Number of Most Illustrative Guessed Incorrectly	71.97	1.9981
+Number of Least Illustrative Guessed Incorrectly	73.96	1.8664

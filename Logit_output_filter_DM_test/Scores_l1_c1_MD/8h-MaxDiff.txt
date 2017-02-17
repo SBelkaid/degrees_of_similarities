@@ -3,7 +3,7 @@
 "shampoo:dandruff" "sunscreen:sunburn" "immunization:disease" "sun:darkness" "immunization:disease" "sun:darkness"
 "antihistamine:anaphylaxis" "vaccine:virus" "money:poverty" "mediation:conflict" "vaccine:virus" "money:poverty"
 "preparation:disaster" "nice:evil" "cure:disease" "sunscreen:sunburn" "cure:disease" "sunscreen:sunburn"
-"water:thirst" "thirst:water" "fungicide:fungus" "medicine:illness" "medicine:illness" "water:thirst"
+"water:thirst" "thirst:water" "fungicide:fungus" "medicine:illness" "medicine:illness" "thirst:water"
 "antibiotic:infection" "good:bad" "sleep:tiredness" "food:hunger" "antibiotic:infection" "good:bad"
 "rest:exhaustion" "shampoo:dandruff" "food:hunger" "mediation:conflict" "rest:exhaustion" "food:hunger"
 "antibiotic:infection" "exhaustion:rest" "fungicide:fungus" "sunscreen:sunburn" "antibiotic:infection" "fungicide:fungus"

@@ -7,7 +7,6 @@
 0.814267781626	"tall:man"
 0.788133419486	"lipstick:red"
 0.733337213327	"murderer:evil"
-0.641490784352	"clay:malleable"
 0.544585709075	"pillow:soft"
 0.512101821792	"apple:red"
 0.443705160171	"bone:brittle"
@@ -39,4 +38,5 @@
 0.0465487826302	"steel:strength"
 0.0245567431371	"candy:sweet"
 0.0200274348566	"plain:flat"
+0.014625751114	"clay:malleable"
 0.0111224235378	"cherry:red"

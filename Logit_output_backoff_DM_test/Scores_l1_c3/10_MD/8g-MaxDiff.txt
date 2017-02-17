@@ -46,7 +46,7 @@
 "pencil:write" "photograph:camera" "blender:puree" "oven:cook" "pencil:write" "oven:cook"
 "dollar:purchase" "broom:sweep" "call:phone" "stab:knife" "stab:knife" "call:phone"
 "stove:cook" "fork:eat" "sleep:bed" "car:drive" "sleep:bed" "car:drive"
-"calculator:add" "lotion:moisturize" "pen:write" "cigarette:smoke" "pen:write" "cigarette:smoke"
+"calculator:add" "lotion:moisturize" "pen:write" "cigarette:smoke" "pen:write" "lotion:moisturize"
 "knife:cut" "telephone:call" "bed:sleep" "drive:car" "knife:cut" "bed:sleep"
 "handle:turn" "hammer:pound" "phone:call" "needle:sew" "phone:call" "hammer:pound"
 "shovel:dig" "airplane:fly" "cook:stove" "camera:photograph" "cook:stove" "camera:photograph"

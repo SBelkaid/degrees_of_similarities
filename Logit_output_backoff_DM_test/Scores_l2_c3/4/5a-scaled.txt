@@ -2,7 +2,7 @@
 0.987488599312	"tall:man"
 0.936129213385	"man:tall"
 0.910104665748	"light:bright"
-0.907427747341	"clay:malleable"
+0.882174266739	"clay:malleable"
 0.878358473348	"steel:tough"
 0.8641918124	"fire:hot"
 0.829497891778	"lipstick:red"

@@ -1,5 +1,5 @@
-0.997454926278	"internet:website"
 0.988458859752	"book:novel"
+0.984727805465	"internet:website"
 0.978562299425	"fish:trout"
 0.977597509365	"family:father"
 0.954719847184	"currency:dollar"

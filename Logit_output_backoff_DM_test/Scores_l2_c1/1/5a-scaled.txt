@@ -1,3 +1,4 @@
+0.997037645832	"clay:malleable"
 0.993999363072	"steel:strong"
 0.940488411283	"man:tall"
 0.884422552897	"light:bright"
@@ -15,7 +16,6 @@
 0.270666154806	"fire:heat"
 0.260093694909	"intellectual:professor"
 0.257661048633	"mogul:wealth"
-0.248736597411	"clay:malleable"
 0.240797095911	"bigot:hateful"
 0.239542271077	"dog:furry"
 0.22481652189	"baby:bald"

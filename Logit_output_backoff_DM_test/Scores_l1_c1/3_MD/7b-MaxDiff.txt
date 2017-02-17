@@ -33,7 +33,7 @@
 "arborist:tree" "therapist:client" "manager:employee" "preacher:parishioner" "manager:employee" "therapist:client"
 "father:son" "client:attorney" "lender:borrower" "coach:athlete" "lender:borrower" "coach:athlete"
 "vet:animal" "mother:child" "arborist:tree" "orator:audience" "mother:child" "orator:audience"
-"textbook:reader" "client:attorney" "attorney:client" "student:professor" "student:professor" "client:attorney"
+"textbook:reader" "client:attorney" "attorney:client" "student:professor" "student:professor" "attorney:client"
 "coach:athlete" "professor:student" "preacher:congregation" "father:son" "professor:student" "coach:athlete"
 "coach:player" "proprietor:customer" "clerk:customer" "child:nanny" "child:nanny" "coach:player"
 "preacher:parishioner" "seller:customer" "accountant:taxpayer" "salesperson:customer" "salesperson:customer" "preacher:parishioner"

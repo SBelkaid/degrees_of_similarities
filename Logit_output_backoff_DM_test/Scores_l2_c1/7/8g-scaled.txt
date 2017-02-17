@@ -1,4 +1,5 @@
 1.0	"sleep:bed"
+1.0	"lotion:moisturize"
 1.0	"bed:sleep"
 0.999999999146	"stab:knife"
 0.999999764281	"cook:stove"
@@ -12,7 +13,6 @@
 0.971720103125	"pen:write"
 0.935894204179	"pencil:write"
 0.931026970607	"phone:call"
-0.896403355317	"lotion:moisturize"
 0.872952059593	"call:phone"
 0.816529973484	"drive:car"
 0.711019547855	"oven:cook"

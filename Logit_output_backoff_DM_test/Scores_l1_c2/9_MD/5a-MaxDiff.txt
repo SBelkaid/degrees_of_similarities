@@ -79,7 +79,7 @@
 "cherry:red" "fire:hot" "steel:strength" "steel:strong" "steel:strong" "fire:hot"
 "bone:brittle" "baby:bald" "pillow:soft" "dog:furry" "bone:brittle" "pillow:soft"
 "heat:fire" "athlete:fit" "cement:solid" "snow:cold" "heat:fire" "snow:cold"
-"murderer:evil" "lipstick:red" "diamond:shiny" "clay:malleable" "murderer:evil" "clay:malleable"
+"murderer:evil" "lipstick:red" "diamond:shiny" "clay:malleable" "murderer:evil" "lipstick:red"
 "fire:heat" "paper:flimsy" "pop:fizzy" "intellectual:professor" "fire:heat" "intellectual:professor"
 "car:fast" "water:wet" "man:tall" "professor:intellectual" "man:tall" "car:fast"
 "pizza:cheesy" "fire:heat" "flimsy:paper" "heat:fire" "heat:fire" "fire:heat"

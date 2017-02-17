@@ -1,6 +1,7 @@
 0.988724585971	"book:novel"
 0.979660430819	"family:father"
 0.978828847866	"fish:trout"
+0.964694282835	"internet:website"
 0.958966234354	"fruit:apple"
 0.957822093922	"currency:dollar"
 0.954297786224	"light:lamp"
@@ -39,4 +40,3 @@
 0.0363926773408	"worker:librarian"
 0.0294935207282	"dish:bowl"
 0.0258693035599	"cordless:phone"
-0.0156903128897	"internet:website"

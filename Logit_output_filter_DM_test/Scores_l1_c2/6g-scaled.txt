@@ -1,3 +1,3 @@
-0.97600024758	"peace:war"
-0.0158162159281	"piece:bunch"
-0.00801571452319	"crawl:rapid"
+0.975733645384	"peace:war"
+0.0158015724721	"piece:bunch"
+0.00801292798131	"crawl:rapid"

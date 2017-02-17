@@ -52,7 +52,7 @@
 "preach:disciple" "perform:audience" "give:receiver" "order:soldier" "perform:audience" "order:soldier"
 "barrio:community" "debtor:pay" "sell:customer" "groom:horse" "sell:customer" "groom:horse"
 "sell:buyer" "shopper:sold" "suckle:young" "design:shopper" "sell:buyer" "design:shopper"
-"imprison:convict" "hurt:victim" "young:suckle" "follower:inspire" "hurt:victim" "imprison:convict"
+"imprison:convict" "hurt:victim" "young:suckle" "follower:inspire" "hurt:victim" "follower:inspire"
 "instruct:subordinate" "inspire:follower" "fight:enemy" "suckle:young" "fight:enemy" "inspire:follower"
 "debtor:pay" "honor:hero" "preach:parishioner" "barrio:community" "honor:hero" "debtor:pay"
 "preach:disciple" "sentence:criminal" "sell:buyer" "inspire:follower" "sentence:criminal" "sell:buyer"
