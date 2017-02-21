@@ -1,3 +1,0 @@
-"homeless:poor" "pregnancy:food" "youth:backpack" "adulthood:job" "pregnancy:food" "homeless:poor"
-"college:degree" "adolescence:acne" "adult:job" "promotion:raise" "college:degree" "adult:job"
-"student:dorm" "death:coffin" "promotion:raise" "adolescence:acne" "student:dorm" "promotion:raise"

@@ -1,2 +1,0 @@
-"bad:good" "rich:poor" "good:bad" "accept:reject" "rich:poor" "bad:good"
-"dark:light" "love:apathy" "fat:thin" "bright:dark" "bright:dark" "love:apathy"

@@ -1,7 +1,0 @@
-0.732416428102	"cat:Siamese"
-0.728978387146	"ocean:Indian"
-0.723149751704	"ocean:Pacific"
-0.723149751704	"ocean:Atlantic"
-0.646490770488	"car:Honda"
-0.552238899332	"state:Virginia"
-0.0199102621255	"Indian:ocean"

@@ -1,1 +1,0 @@
-"hot:cool" "smile:angry" "cruel:help" "calm:scream" "hot:cool" "cruel:help"
