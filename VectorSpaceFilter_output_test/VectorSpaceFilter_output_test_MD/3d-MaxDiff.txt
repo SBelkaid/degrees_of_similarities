@@ -1,0 +1,4 @@
+"persuade:force" "gossip:chat" "read:study" "chat:gossip" "read:study" "chat:gossip"
+"talk:gossip" "request:beg" "visit:stalk" "feed:poison" "feed:poison" "talk:gossip"
+"gossip:talk" "request:beg" "hurt:kill" "touch:grope" "gossip:talk" "request:beg"
+"complain:whine" "request:beg" "discard:litter" "gossip:talk" "discard:litter" "gossip:talk"
